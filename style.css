@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*寬高設定作用在邊框外緣的範圍內*/
+    font-family: 'Lexend Deca';
 }
 .navbar{
     display: flex;
@@ -48,7 +49,7 @@
     mask-size: 100% 100%;
 }
 
-.navbar_option{
+.navbar_optionblock{
     display: flex;
     justify-content: right;
 }
@@ -60,4 +61,87 @@
     color: #265687;
     font-weight: bold;
     text-decoration: none;
+}
+.content_newsblock{
+    width: 1200px;
+    height: 700px;
+    background-color: #f0f8ff;
+    border-radius: 30px;
+    margin: 70px 20%;
+    padding: 35px;
+}
+.content_newsblock_more{
+    font-size: 15px;
+    text-align: right;
+    letter-spacing: 5px;
+    color: #8B8B8B;
+    font-weight: 900;
+}
+.content_newsblock_more a{
+    text-decoration: none;
+    color: #8B8B8B;
+}
+.content_newsblock_more a:hover{
+    color: #265687;
+}
+.content_newsblock_title{
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+.content_newsblock_buttonblock{
+    display: flex;
+    margin: 30px 0;
+}
+.content_newsblock_button{
+    margin: 0 20px 0 0;
+    padding: 5px 20px;
+    border-style: solid;
+    border-color: #265687;
+    border-radius: 15px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: #265687;
+}
+.content_newsblock_button :hover{
+    background-color: #265687;
+    color: #f0f8ff;
+}
+.content_newsblock_articleblock_1{
+    display: flex;
+}
+.content_newsblock_articleblock_2{
+    display: flex;
+    margin: 20px 0;
+}
+.content_newsblock_article{
+    width: 550px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.content_newsblock_article a{
+    display: flex;
+    text-decoration: none;
+}
+.content_newsblock_article_img{
+    width: 200px;
+    height: 160px;
+    margin: 0 15px 0 0;
+}
+.content_newsblock_article_img img{
+    width: 200px;
+    height: 160px;
+}
+.content_newsblock_article_title{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content_newsblock_article_left{
+    margin: 0 10px 0 0;
+}
+.content_newsblock_article_right{
+    margin: 0 0 0 10px;
 }
