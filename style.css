@@ -68,7 +68,7 @@
     font-weight: bold;
     text-decoration: none;
 }
-.content_newsblock{
+.content_block{
     width: 1200px;
     height: 700px;
     background-color: #f0f8ff;
@@ -76,30 +76,30 @@
     margin: 70px 20%;
     padding: 35px;
 }
-.content_newsblock_more{
+.content_block_more{
     font-size: 15px;
     text-align: right;
     letter-spacing: 5px;
     color: #8B8B8B;
     font-weight: 900;
 }
-.content_newsblock_more a{
+.content_block_more a{
     text-decoration: none;
     color: #8B8B8B;
 }
-.content_newsblock_more a:hover{
+.content_block_more a:hover{
     color: #265687;
 }
-.content_newsblock_title{
+.content_block_title{
     font-size: 60px;
     letter-spacing: 5px;
     font-weight: 900;
 }
-.content_newsblock_buttonblock{
+.content_block_buttonblock{
     display: flex;
     margin: 30px 0;
 }
-.content_newsblock_button{
+.content_block_button{
     margin: 0 20px 0 0;
     padding: 5px 20px;
     border-style: solid;
@@ -107,52 +107,75 @@
     border-radius: 15px;
     letter-spacing: 5px;
     font-weight: 900;
+    height: 35px;
     color: #265687;
 }
-.content_newsblock_button:hover{
+.content_block_button:hover{
     background-color: #265687;
     border-color: #265687;
     color: #f0f8ff;
 }
-.content_newsblock_articleblock_1{
+.content_block_articleblock_1{
     display: flex;
 }
-.content_newsblock_articleblock_2{
+.content_block_articleblock_2{
     display: flex;
     margin: 20px 0;
 }
-.content_newsblock_article{
+.content_block_article{
     width: 550px;
     height: 200px;
     background-color: white;
     border-radius: 20px;    
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
-.content_newsblock_article:hover{
+.content_block_article:hover{
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
 }
-.content_newsblock_article a{
+.content_block_article a{
     display: flex;
     text-decoration: none;
     padding: 20px;
 }
-.content_newsblock_article_img{
+.content_block_article_img{
     width: 200px;
     height: 160px;
     margin: 0 15px 0 0;
+    align-items: center;
 }
-.content_newsblock_article_img img{
+.content_block_article_img img{
     width: 200px;
     height: 160px;
 }
-.content_newsblock_article_title{
+.content_block_article_title{
     color: black;
     font-weight: bold;
     font-size: 20px;
 }
-.content_newsblock_article_left{
+.content_block_article_left{
     margin: 0 10px 0 0;
 }
-.content_newsblock_article_right{
+.content_block_article_right{
     margin: 0 0 0 10px;
+}
+.creditcard_img img{
+    width: 235px;
+    height: 150px;
+    align-items: center;
+    border-radius: 10px;
+}
+.creditcard_title{
+    margin: 0 0 0 35px;
+}
+.creditcard_bank{
+    display: inline;
+    margin: 0 0 0 35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.verticalcard_img img{
+    width: 95px;
+    height: 150px;
+    margin: 0 33.3%;
+    border-radius: 5px;
 }
