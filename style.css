@@ -16,7 +16,7 @@
     justify-content: space-between;
     background-color: #f0f8ff;
 }
-.navbar_img_logo img{
+.img_logo img{
     width: 119.5px;
 }
 .navbar_searchbar{
@@ -57,14 +57,12 @@
 .navbar_option{
     margin: 0 15px;
 }
-.navbar_option:hover{
-    background-color: #265687;
-}
 .navbar_option  a:hover{
-    color: #f0f8ff;
+    color: #265687;
+    font-weight: 900;
 }
 .navbar_option a{
-    color: #265687;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
@@ -73,7 +71,7 @@
     height: 700px;
     background-color: #f0f8ff;
     border-radius: 30px;
-    margin: 70px 20%;
+    margin: 70px auto;
     padding: 35px;
 }
 .content_block_more{
@@ -138,13 +136,13 @@
     padding: 20px;
 }
 .content_block_article_img{
-    width: 200px;
+    width: 250px;
     height: 160px;
     margin: 0 15px 0 0;
     align-items: center;
 }
 .content_block_article_img img{
-    width: 200px;
+    width: 250px;
     height: 160px;
 }
 .content_block_article_title{
@@ -158,18 +156,19 @@
 .content_block_article_right{
     margin: 0 0 0 10px;
 }
+.creditcard_img{
+    width: 250px;
+    height: 160px; 
+}
 .creditcard_img img{
-    width: 235px;
-    height: 150px;
+    width: 250px;
+    height: 160px; 
     align-items: center;
     border-radius: 10px;
+    object-fit: cover;
 }
-.creditcard_title{
-    margin: 0 0 0 35px;
-}
-.creditcard_bank{
+.bankname{
     display: inline;
-    margin: 0 0 0 35px;
     font-size: 15px;
     font-weight: bold;
 }
@@ -178,4 +177,68 @@
     height: 150px;
     margin: 0 33.3%;
     border-radius: 5px;
+}
+.account_img{
+    width: 250px;
+    height: 160px; 
+}
+.account_img img{
+    width: 250px;
+    height: 160px;
+    align-items: center;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.footer{
+    width: auto;
+    height: 150px;
+    display: flex;
+    background-color: #f0f8ff;
+    align-items: center;
+    padding: 20px 100px;
+}
+.footer_logo{
+    margin: 0 150px 0 0;
+
+}
+.footer_nav{
+    margin: 0 150px 0 0;
+    display: flex;
+}
+.footer_contectus{
+    margin: 0 150px 0 0;
+    display: flex;
+}
+.contectus_title{
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+.contectus_img{
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 5l-8-5zm0 12H4V8l8 5l8-5z'/%3E%3C/svg%3E");
+    background-color: #265687;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    margin: 0 5px 0 0;
+}
+.contectus_email{
+    background-color: #265687;
+    color: #f0f8ff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+}
+.copyright{
+    background-color: #f0f8ff;
+    font-size: 8px;
+    color: #265687;
+    text-align: right;
+    padding: 5px;
 }
