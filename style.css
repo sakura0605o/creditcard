@@ -89,7 +89,7 @@
     color: #265687;
 }
 .content_block_title{
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: 5px;
     font-weight: 900;
 }
@@ -148,7 +148,7 @@
 .content_block_article_title{
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 .content_block_article_left{
     margin: 0 10px 0 0;
@@ -169,7 +169,7 @@
 }
 .bankname{
     display: inline;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
 }
 .verticalcard_img img{
@@ -204,6 +204,7 @@
 .footer_nav{
     margin: 0 150px 0 0;
     display: flex;
+    flex-wrap:wrap;
 }
 .footer_contectus{
     margin: 0 150px 0 0;
