@@ -29,11 +29,14 @@
     border-radius: 30px;
     padding: 0 20px;
 }
-.navbar_searchbar_text h1{
+.navbar_searchbar_text input{
     font-size: 15px;
-    color: #0000005c;
+    color: #265687;
     font-weight: bold;
     margin: 0 10px;
+    border-style: none;
+    background-color: transparent;
+    width: 350px;
 }
 .navbar_searchbar_icon{
     display: inline-block;
