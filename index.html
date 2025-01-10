@@ -10,18 +10,32 @@
 </head>
 
 <body>
-    <div class="nav-block">       
-            <div class="navbar-logo"><a href="index.html"><div class="logo-img"></div></a></div>            
-            <div class="navbar-searchbar">
-                <div class="navbar-searchbar-icon"></div>
-                <div class="navbar-searchbar-text">
-                    <input type="text" placeholder="搜尋">
-                </div>
+    <div class="nav-block">
+        <div class="nav-logo">
+            <a href="index.html">
+                <div class="nav-logo-img"></div>
+            </a>
+        </div>
+        <div class="nav-search">
+            <input type="checkbox" name="search" id="search" class="nav-search-ctrl check-icon">
+            <label for="search">
+                <div class="nav-search-icon"></div>
+            </label>
+            <div class="nav-search-input">
+                <label for="search" class="nav-search-input-fliter">
+                    <div class="input-block">
+                        <div class="close-icon"></div>
+                        <input type="text" placeholder="搜尋">
+                        <button>Search</button>
+                    </div>
+                </label>
             </div>
-            <!-- <div class="menu-btn">
-                <input type="checkbox" name="menu" id="menu">
-                <label for="menu"><div class="menu-icon"></div></label>
-            </div> -->
+        </div>
+        <div class="nav-menu">
+            <input type="checkbox" name="menu" id="menu" class="nav-menu-ctrl check-icon">
+            <label for="menu">
+                <div class="nav-menu-icon"></div>
+            </label>
             <nav>
                 <ul>
                     <li><a href="news.html">最新消息</a></li>
@@ -32,6 +46,8 @@
                     <li><a href="news.html">優惠好禮</a></li>
                 </ul>
             </nav>
+        </div>
+
     </div>
     <!-- <div class="content">
         <div class="content_block newsblock">
