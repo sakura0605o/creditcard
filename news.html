@@ -5,42 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <div class="nav">
-        <div class="navbar">
-            <div class="navbar_img_logo img_logo"><a href="index.html"><img src="img/toby5-word.png" alt=""></a></div>
-            <div class="navbar_searchbar">                
-                <div class="navbar_searchbar_icon"></div>
-                <div class="navbar_searchbar_text">
-                    <input type="text" placeholder="搜尋">
-                </div>
+    <div class="nav-block">
+        <div class="nav-logo">
+            <a href="index.html">
+                <div class="nav-logo-img"></div>
+            </a>
+        </div>
+        <div class="nav-search">
+            <input type="checkbox" name="search" id="search" class="nav-search-ctrl check-icon">
+            <label for="search">
+                <div class="nav-search-icon"></div>
+            </label>
+            <div class="nav-search-input">
+                <label for="search" class="nav-search-input-fliter">
+                    <div class="input-block">
+                        <div class="close-icon"></div>
+                        <input type="text" placeholder="搜尋">
+                        <button>Search</button>
+                    </div>
+                </label>
             </div>
-            <div class="navbar_optionblock">
-                <div class="navbar_option"><a href="/news.html">最新消息</a></div>
-                <div class="navbar_option"><a href="">找數位帳戶</a></div>
-                <div class="navbar_option"><a href="">找信用卡</a></div>
-                <div class="navbar_option"><a href="">推薦信用卡</a></div>  
-                <div class="navbar_option"><a href="">優惠好禮</a></div>
+        </div>
+        <div class="nav-menu">
+            <input type="checkbox" name="menu" id="menu" class="nav-menu-ctrl check-icon">
+            <label for="menu">
+                <div class="nav-menu-icon"></div>
+            </label>
+            <div class="nav-menu-block">
+                <nav>
+                    <ul>
+                        <li><a href="news.html">最新消息</a></li>
+                        <li><a href="news.html">找銀行</a></li>
+                        <li><a href="news.html">找數位帳戶</a></li>
+                        <li><a href="news.html">找信用卡</a></li>
+                        <li><a href="news.html">推薦信用卡</a></li>
+                        <li><a href="news.html">優惠好禮</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
     <div class="footer">
-        <div class="footer_logo img_logo"><img src="img/toby5-word.png" alt="Logo"></div>
-        <div class="footer_nav">
-            <div class="navbar_option"><a href="/news.html">最新消息</a></div>
-            <div class="navbar_option"><a href="">找數位帳戶</a></div>
-            <div class="navbar_option"><a href="">找信用卡</a></div>
-            <div class="navbar_option"><a href="">推薦信用卡</a></div>  
-            <div class="navbar_option"><a href="">優惠好禮</a></div>
+        <div class="footer-logo">
+            <a href="index.html">
+                <div class="footer-logo-img"></div>
+            </a>
         </div>
-        <div class="footer_contectus">
-            <div class="contectus_title">
-                <div class="contectus_img"></div>
-                <div class="contectus_title">Contect US</div>
-            </div>            
-            <div class="contectus_email">toby910605@gmail.com</div>
-        </div>        
+        <div class="footer-nav">
+            <div class="footer-option"><a href="news.html">最新消息</a></div>
+            <div class="footer-option"><a href="news.html">找數位帳戶</a></div>
+            <div class="footer-option"><a href="">找信用卡</a></div>
+            <div class="footer-option"><a href="">推薦信用卡</a></div>
+            <div class="footer-option"><a href="">優惠好禮</a></div>
+        </div>
+        <div class="footer-contectus">
+            <div class="contectus-title">
+                <div class="contectus-img"></div>
+                <div class="contectus-title-content">Contect US</div>
+            </div>
+            <div class="contectus_email">tobystudio65@gmail.com</div>
+        </div>
     </div>
     <div class="copyright">© 2024 TobyStudio65 Taiwan. All rights reserved.</div>
 </body>
